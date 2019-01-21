@@ -17,6 +17,7 @@ while x < 20:
 	target.write(Earl)
 	target.write("\r")
 	TimeStamp = str(data[x]['taken_at_timestamp'])
+	target.write(TimeStamp)
 	target.write("\r")
 	Height = str(data[x]['dimensions']['height'])
 	target.write(Height)
